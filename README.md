@@ -8,8 +8,8 @@ Creating an HTML blog that has the same content as the landing page of the trans
 Ignacio Bellico
 
 ## Tech stack: 
-* Visual studio code to edit the codes used for the layout.
-* Figma to create the design of the screenflow used for this project.
+* Visual studio code to edit the codes used for the layout. Download from this link [visual studio code](https://code.visualstudio.com/)
+* Figma to create the design of the screenflow used for this project. Download from this link [figma](https://www.figma.com/downloads/)
 
 ## E-mail me:
 [Ignacio Bellico](bellicoignacio@gmail.com)
