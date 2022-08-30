@@ -1,5 +1,5 @@
-## "BaSP-Week01-A2022"
-# Creating a blog using HTML
+# "BaSP-Week01-A2022"
+## Creating a blog using HTML
 
 ## What is the project about?
 Creating an HTML blog that has the same content as the landing page of the transgenix app screenflow, created on figma.
