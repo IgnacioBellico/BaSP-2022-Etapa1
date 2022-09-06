@@ -4,8 +4,11 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="Trackgenix app landing page">
-        <title>TRACKGENIX</title>
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/Style.css">
+        <link rel="preconnect" href="https:fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap">
+        <link rel="preconnect" href="https:fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap">        
+        <title>TRACKGENIX</title>
     </head>
     <body>
         <div>
@@ -18,7 +21,7 @@
             <img src="Assets/Icon6 - html.svg" alt="Arrow icon">
             <img src="Assets/Icon7 - html.svg" alt="Search icon">
             <input type="text" placeholder="placeholder">
-            <div>
+            <div class="navigation">
                 <nav>                   
                     <a>home</a>
                     <a>sign up</a>
@@ -34,24 +37,28 @@
                     <li>0800999000</li>
                 </ul>
             </div>
-        </aside> 
-        <img src="Assets/Icon8 - html.svg" alt="Message icon">
-        <h2>TRACKGENIX</h2>
+        </aside>
+        <div>
+            <img class="icon" src="Assets/Icon8 - html.svg" alt="Message icon">
+            <h2 class="title">TRACKGENIX</h2>
+        </div> 
         <main>
             <section>
-                <img src="Assets/IMG-1- html.png" alt="Man programming image">
-                <h2>Keep a good working life balance</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicixercitationem, commodi necessitatibus perferendis sapiente optio.</p>
-                <p>Ut fuga dicta officiis incidunt quis odio</p>
-                <button>read more</button>
+                <div id="box-1">
+                    <img src="Assets/IMG-1- html.png" alt="Man programming image">
+                    <h2>Keep a good working life balance</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicixercitationem, commodi necessitatibus perferendis sapiente optio.</p>
+                    <p>Ut fuga dicta officiis incidunt quis odio</p>
+                    <button>read more</button>
+                </div>
                 <div>
-                    <div>
+                    <div id="box-2">
                         <h2>Technologies</h2>
                         <img src="Assets/IMG2- html.png" alt="Digital world image">
                         <p>Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor.</p>
                         <button>read more</button>
                     </div>
-                    <div>
+                    <div id="box-3">
                         <h2>New technologies</h2>
                         <img src="Assets/IMG3- html.png" alt="Girl working image">
                         <p>Lorem ipsum dolor sit amet coconsectetur.Lorem ipsum dolor sit amet consectetur.</p>
@@ -59,8 +66,8 @@
                     </div>
                 </div>
             </section>
-            <section>
-                    <h2>Our trayectory in the software world since 2019</h2>
+            <section id="box-4">
+                    <h2 class="trayectory">Our trayectory in the software world since 2019</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     <p>Molestias recusandae repellat exercitationem, commodi necessitatibus perferendis sapiente optio.
                         Ut fuga dicta officiis incidunt quis odio amet totam eum doloremque, est sint!</p>
@@ -69,7 +76,7 @@
                     <img src="Assets/IMG4- html.png" alt="Working place image"> 
             </section>
             <section>
-                <h2>Work with us</h2>
+                <h2 class="work">Work with us</h2>
                 <div>
                     <img src="Assets/Icon2 - html.svg" alt="Computer icon">
                     <h3>Develop your productivity</h3>                    
@@ -77,8 +84,8 @@
                     <img src="Assets/icon3 - html.svg" alt="Progress icon">
                     <h3>Progress in your work</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
-                </span>
-                <span>
+                </div>
+                <div class="box-5">
                     <img src="Assets/icon4 - html.svg" alt="Team icon">
                     <h3>Running teams</h3>
                     <p>Lorem ipsum dolor sit amet consectetur</p>
