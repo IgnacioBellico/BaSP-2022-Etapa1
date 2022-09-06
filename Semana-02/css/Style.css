@@ -152,24 +152,90 @@ ul{
     left: 580px;
 }
 
-#box-4{
+#section-trayectory{
     position: relative;
-    bottom: 3800px;
+    display: block;
+    bottom: 1500px;
 }
-
+#section-trayectory h2{
+    position: relative;
+    text-align: center;
+    top: 1700px;
+    left: 400px;
+}
+#section-trayectory p{
+    position: relative;
+    text-align: left;
+    width: 200px;
+    top: 1780px;
+    left: 50px;
+}
+#section-trayectory img{
+    position: relative;
+    top: 1520px;
+    left: 400px;
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+}
+#work{
+position: relative;
+display: block;
+bottom: 200px;
+}
+#work h2{
+    position: relative;
+    text-align: center;
+    top: 350px;
+    left: 200px;
+    }
+.productivity{
+    position: relative;
+    top: 400px;
+    left: 150px;
+}
+.progress{
+    position: relative;
+    top: 500px;
+    left: 150px;
+}
+.teams{
+    position: relative;
+    top: 20px;
+    left: 900px;
+}
+.decisions{
+    position: relative;
+    top: 120px;
+    left: 900px;
+}
+#functions{
+    position: relative;
+    display: block;
+    bottom: 10px;
+}
+#functions h2{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    left: 200px;
+}
+#functions img{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+#functions ol{
+    text-align: right;
+    position: relative;
+    top: 0px;
+}
 main{
     float: right;
     width: 70%;
     left: 370px;
     top: 110px;
     height: 100%;
-}
-.work{
-    text-align: center;
-    width: 203px;
-    height: 35px;
-    left: 796px;
-    top: 1405px;
 }
 .box-5 {
     float: right;
