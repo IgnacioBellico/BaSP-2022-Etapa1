@@ -1,6 +1,6 @@
 * {
     background-color: ffffff;
-    font-family: roboto, sans serif;
+    font-family: "roboto";
 }
 body{
     float: right;
@@ -20,8 +20,12 @@ h1{
     width: 1062px;
     height: 59px;
     margin-top: -50px;
-    margin-left: 401px;
+    margin-left: 300px;
     text-align: center;
+    font-family: "roboto";
+    font-size: 70px;
+    font-weight: 700px;
+    font-style: bold;
 }
 aside{
     float: left;
@@ -34,12 +38,28 @@ aside{
     border-radius: 16px
     }
 input{
+    position: relative;
     width: 177px;
     height: 31px;
     margin-top: 141px;
     margin-left: 128px;
     border-radius: 4px;
     padding: 10px, 12px, 10px, 12px;
+}
+.arrow{
+    position: relative;
+    width: 19px;
+    height: 15px;
+    top: 10px;
+    left: 70px;
+}
+.search{
+    position: relative;
+    width: 30px;
+    height: 38px;
+    top: 20px;
+    left: 81px;
+
 }
 nav{
     display: inline-flexbox;
@@ -60,6 +80,7 @@ ul{
     margin-top: 639px;
     margin-left: 40px;
 }
+
 .title{
     text-align: center;
     width: 499px;
@@ -80,7 +101,7 @@ ul{
     left: 20px;
     width: 40%;
     display: block;
-    }
+}
 #box-1 img{
     position: relative;
     top: 800px;
@@ -88,10 +109,15 @@ ul{
 #box-1 h2{
     position: relative;
     top: 820px;
+    font-family: "roboto, sans serif";
+    font-style: bold;
+
 }
 #box-1 p{
     position: relative;
     top: 850px;
+    font-family: "roboto, sans serif";
+    color: #373867;
 }
 #box-1 button{
     position: relative;
@@ -230,6 +256,91 @@ bottom: 200px;
     position: relative;
     top: 0px;
 }
+#touch{
+    position: relative;
+    display: block;
+    bottom: 350px;
+}
+#touch h2{
+    position: relative;
+    text-align: center;
+    top: 450px;
+    left: 200px;
+}
+#complete{
+    position: relative;
+    display: block;
+}
+#complete input{
+    top: 50px;
+    left: 100px;
+    width: 789px;
+}
+#complete option{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 789px;
+}
+#complete button{
+    position: relative;
+    width: 162px;
+    height: 49px;
+    top: 150px;
+    left: 900px;
+}
+#title{
+    position: relative;
+    display: block;
+    bottom: 300px;
+}
+#title h2{
+    position: relative;
+    text-align: center;
+    top: 500px;
+    left: 200px;
+}
+#title img{
+    position: relative;
+    top: 550px;
+    left: 50px;
+}
+#title ul{
+    float: right;
+    position: relative;
+    top: -500px;
+    bottom: 1000px;
+    width: 200px;
+    height: 800px;
+}
+#lists{
+    position: relative;
+    display: block;
+    bottom: 100px;
+}
+#lists h2{
+    position: relative;
+    top: 400px;
+    text-align: center;
+    left: 200px;
+    font-size: 40px;
+    font-style: bold;
+}
+#lists ol{
+    position: relative;
+    float: left;
+    top: -100px;
+    left: 100px;
+    margin-bottom: 100px;
+}
+#lists ul{
+    position: relative;
+    top: -100px;
+    left: 700px;
+    width: 300px;
+
+}
+
 main{
     float: right;
     width: 70%;
