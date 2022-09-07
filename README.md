@@ -2,7 +2,9 @@
 ## Creating a blog using HTML
 
 ## What is the project about?
-Creating an HTML blog that has the same content as the landing page of the transgenix app screenflow, created on figma.
+Week-1: Create an app design on figma, to help gigatech software solotions S.A, organize it´s employees information.
+Week-2: Creating an HTML blog that has the same content as the landing page of the transgenix app screenflow, created on figma.
+Week-3: Convert the HTML blog created on Week-2, to CSS, in order to create a web page that looks the same that the transgenix app created on figma.
 
 ## Author:
 Ignacio Bellico
