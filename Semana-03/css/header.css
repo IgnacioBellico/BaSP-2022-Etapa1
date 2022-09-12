@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #373867;
+    width: 100%;
+    height: 110px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 1062px;
+    height: 59px;
+    margin-top: 25px;
+    margin-left: 300px;
+    text-align: center;
+    font-family: "roboto";
+    font-size: 70px;
+    font-weight: 700px;
+    font-style: bold;
+}
